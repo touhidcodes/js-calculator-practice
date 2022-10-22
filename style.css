@@ -50,3 +50,6 @@ td {
   transition: 0.4s ease-in;
   cursor: pointer;
 }
+footer {
+  margin-top: 20px;
+}
