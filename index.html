@@ -3,7 +3,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS Simple Calculator</title>
+    <title>Simple JS Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -188,6 +188,25 @@
         </table>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script>
+      function deleteMe() {
+        document.getElementById("output-result").value = "";
+      }
+
+      function removeMe() {
+        const output = document.getElementById("output-result");
+        output.value = output.value.slice(0, -1);
+      }
+
+      function calculator(newValue) {
+        document.getElementById("output-result").value += newValue;
+      }
+
+      function finalResult() {
+        const a = document.getElementById("output-result").value;
+        const b = eval(a);
+        document.getElementById("output-result").value = b;
+      }
+    </script>
   </body>
 </html>
