@@ -4,44 +4,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="js-calculator">
       <table>
         <tr>
-          <td><input type="text" name="" id="" /></td>
+          <td><input type="text" name="" id="show-result" /></td>
         </tr>
         <tr>
-          <td><input type="button" value="C" id="" onclick="" /></td>
-          <td><input type="button" value="<" id="" onclick="" /></td>
-          <td><input type="button" value="(" id="" onclick="" /></td>
-          <td><input type="button" value=")" id="" onclick="" /></td>
+          <td><input type="button" value="C" id="" onclick="deleteMe ()" /></td>
+          <td><input type="button" value="<" id="" onclick="removeMe ()" /></td>
+          <td>
+            <input type="button" value="(" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value=")" id="" onclick="calculator ()" />
+          </td>
         </tr>
         <tr>
-          <td><input type="button" value="7" id="" onclick="" /></td>
-          <td><input type="button" value="8" id="" onclick="" /></td>
-          <td><input type="button" value="9" id="" onclick="" /></td>
-          <td><input type="button" value="/" id="" onclick="" /></td>
+          <td>
+            <input type="button" value="7" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="8" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="9" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="/" id="" onclick="calculator ()" />
+          </td>
         </tr>
         <tr>
-          <td><input type="button" value="4" id="" onclick="" /></td>
-          <td><input type="button" value="5" id="" onclick="" /></td>
-          <td><input type="button" value="6" id="" onclick="" /></td>
-          <td><input type="button" value="X" id="" onclick="" /></td>
+          <td>
+            <input type="button" value="4" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="5" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="6" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="*" id="" onclick="calculator ()" />
+          </td>
         </tr>
         <tr>
-          <td><input type="button" value="1" id="" onclick="" /></td>
-          <td><input type="button" value="2" id="" onclick="" /></td>
-          <td><input type="button" value="3" id="" onclick="" /></td>
-          <td><input type="button" value="-" id="" onclick="" /></td>
+          <td>
+            <input type="button" value="1" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="2" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="3" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="-" id="" onclick="calculator ()" />
+          </td>
         </tr>
         <tr>
-          <td><input type="button" value="0" id="" onclick="" /></td>
-          <td><input type="button" value="." id="" onclick="" /></td>
-          <td><input type="button" value="+" id="" onclick="" /></td>
-          <td><input type="button" value="=" id="" onclick="" /></td>
+          <td>
+            <input type="button" value="0" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="." id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="+" id="" onclick="calculator ()" />
+          </td>
+          <td>
+            <input type="button" value="=" id="" onclick="finalResult ()" />
+          </td>
         </tr>
       </table>
     </div>
+    <script></script>
   </body>
 </html>
